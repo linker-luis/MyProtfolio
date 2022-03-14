@@ -15,7 +15,7 @@ export const projects = [
     },
     {
         name: 'E-Commerce',
-        url: '/projects/myshop.jpg',
+        url: '/projects/myshop.JPG',
         github: 'https://github.com/linker-luis/MyShopApp',
         page: 'https://myshopapp.netlify.app/',
         description: 'Aplicacíon web de una tienda virtual de ropa para damas, consumiendo la API de My Fake API con react y redux',
