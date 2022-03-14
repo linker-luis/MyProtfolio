@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 1fr;
+    padding: 110px 0;
+    /* background: linear-gradient(#28C9E5, #189BB2); */
+}
+
+.skills_container {
+    grid-column: 2/12;
+    grid-row: 2/3;
+    display: flex;    
+    justify-content: center;   
+}
+
+.skills {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}

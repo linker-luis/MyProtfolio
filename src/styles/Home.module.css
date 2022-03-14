@@ -1,0 +1,14 @@
+.container {
+  background: #ECF0F3;
+  /* width: 100vw; */
+  /* display: grid;
+  grid-template-columns: repeat(12, 1fr); */
+  
+}
+
+.main {
+  
+  gap: 20px;
+  min-height: 100vh;
+  grid-column: 1/-1;
+}
