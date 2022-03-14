@@ -5,7 +5,7 @@ import { MdVisibility } from 'react-icons/md'
 import { AiFillGithub } from 'react-icons/ai'
 
 function Card({project}) {
-  console.log(project)
+  
   
   return (
     <div className={styles.card}>
