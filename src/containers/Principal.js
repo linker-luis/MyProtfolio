@@ -11,14 +11,14 @@ function Principal() {
         <h2>Luis Contreras</h2>
         <h5 className={styles.front}>Frontend Developer</h5>
         <h5 className={styles.back}>Backend Developer</h5>
-        <a className={styles.button} href="#projects">Proyectos</a>
+        <a target='_blank' rel="noopener noreferrer" className={styles.button} href="https://drive.google.com/file/d/1rqanuryyftK2oUqEQ6d_w8UCXh0wC6yO/view?usp=sharing">C.V.</a>
       </div>
       <div className={styles.img}>
         <img src="/img1.svg" alt="img1" />
       </div>
       <div className={styles.contact}>
-        <a href='#' className={styles.linkin}><AiFillLinkedin/></a>
-        <a href='#' className={styles.github}><AiFillGithub/></a>
+        <a target='_blank' rel="noopener noreferrer" href='https://linkedin.com/in/luis-contreras-417a6b233' className={styles.linkin}><AiFillLinkedin/></a>
+        <a target='_blank' rel="noopener noreferrer" href='https://github.com/linker-luis' className={styles.github}><AiFillGithub/></a>
       </div>
     </div>
   )
